@@ -1,0 +1,75 @@
+otro archivo
+cuando se halla creado un nuevo archivo 
+ese archivo no sera seguido por git asi que tendra que ser agregado
+usando el comando git add + nombre de la archivo
+
+si en un caso queremos agregar mas de un archivo en nuestra etapa de steach
+
+podemos usar el mismo comando pero con este pequeño cambio
+
+git add archivo1.txt archivo2.txt
+#los nombres de los archivos pueden cambiar y sus extensiones
+
+
+
+ELIMINAR ARCHIVOS DENTRO DEL REPOSITORIO:
+
+para eso usamos el comnado para ver una listado de los archivos dentro de nuestra carpeta com el comando:
+ls
+
+y para eliminar un archivo
+escribimos el comando
+
+rm + nombre del archivo
+
+y al revisar con el comando status
+
+nos mostrata en rojo los cambios que hemos realizado que no se encuentran en la etapa de stage
+
+asi que agregaremos los cambios a la etapa de stage
+con el comando git add nombre del archivo
+
+
+luego nos mostrara en status qeu podemos realizar la accion de ELIMINAR
+
+relizamos un commit del cambio
+git commit -m "eliminando un archivo"
+
+al usar el comando ls
+para ver los archivos no aparecera el archivo eliminando
+
+
+SALTATE UN PASO PA ELIMINAR UN ARCHIVO:
+
+usa el comando 
+git rm nombre del archivo
+
+git status
+
+luego comitear
+
+
+
+SACAR UN CAMBIO QUE ESTA EN LA ETAPA DE STAGE:
+usamos el comando indicado :
+git restore --staged nombre del archivo
+el archivo ya no se encontrara el la etapa destaged
+
+
+
+DESCARTAR LOS cambios
+RECUPERAR ARCHIVO ELIMINADO
+comando:
+git restore nombre del archivo
+
+
+
+MOVER O CAMBIAR EL NOMBRE DEL UN ARCHIVO:
+
+mv
+es el comando para mover archivos 
+mv + (nombre del archivo) + nuevo destino o nuevo nombre del archivo 
+las extenciones las mismas
+
+recuerda agregar todos los cambios
+eso quiere decir el nombre anterior que tenia el archivo y el nombre actual
