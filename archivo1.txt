@@ -1,0 +1,35 @@
+ssssf
+
+para que git agrege archivos usamos el comando
+ git add + nombre del archivo 
+ git add + .txt ( agrega todos los archivos con extencion txt)
+ git add + . (agragra todos los archivos  que aparescan dentro del listado de untracked files )#este mertodo es considerado mala practica
+
+
+ en el listado los archivo que se encientren el verde son archivos que estan listos para ser cmprometidos
+
+modificarde un archivo: 
+en el momento que se haga una modificacion a un archivo pasan de estar en una etapa de esteach a una etapa en donde no esta en steage
+
+osea antes de que recivieran una modificacion los habiamos agregado pero ahora vuelven a no estar listos
+
+si no se remplaza el cambio, git solo tendra el archivo anterior al cambio y no el que recibio el cambio
+
+
+
+lo que pasan a la etapa stage no son los archivos si no los  cambio que se hacen a los archivos
+
+la palabra commit significa comprometer
+
+
+HACER UN COMMIT CUANDO ESTE LISTO EL ARCHIVO:
+ 
+para comprometer el trabajo (archivo) existen dos formas
+1. recomendada: 
+git commit -m "commit inicial"  (dentro de "" va un mensaje que tenga sentido)
+
+una vez hecho el comando los cambios seran comprometidos
+y si se intenta revizar con el comando 
+git status
+
+aparera que estamos en la rama de master o main pero que ya no se encuentra nada disponible para hacer una comit 
