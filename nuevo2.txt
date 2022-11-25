@@ -79,3 +79,21 @@ AHORATE 5 SEGUNDOS
 comando para cambiar nombre del archivo y padarlo a la etapa de staged 
 git mv nombre del archivo + nuevo nombre
 
+
+
+COMANDO PARA VER EL ESTADO DE LOS ARCHIVOS
+coman altenativo a 
+git status 
+
+git status -s
+
+el rojo aparecen los que aun no estan en la etapa de staged
+una ves agregado cambiaran a verde
+
+cuando aparecen 
+?? nombre del archivo
+es por que no se a agregado apra que git lo haga seguimiento
+
+cuando aparece una A es por que un nuevo archivo o el archivo esta siendo agregado
+
+si todos los archivos aparece en verde ya estan listos para ser comprometidos
