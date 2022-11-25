@@ -22,8 +22,10 @@ lo que pasan a la etapa stage no son los archivos si no los  cambio que se hacen
 la palabra commit significa comprometer
 
 
+
+
 HACER UN COMMIT CUANDO ESTE LISTO EL ARCHIVO:
- 
+
 para comprometer el trabajo (archivo) existen dos formas
 1. recomendada: 
 git commit -m "commit inicial"  (dentro de "" va un mensaje que tenga sentido)
@@ -33,3 +35,11 @@ y si se intenta revizar con el comando
 git status
 
 aparera que estamos en la rama de master o main pero que ya no se encuentra nada disponible para hacer una comit 
+
+
+SEGUNDA FORMA DE HACER COMMIT A UN ARCHIVO:
+
+se hace con el comando:
+git commit 
+
+te manada a l editor y en donde este el indicador agregas el mensaje y luego cierras el archivo en donde escribiste el mensaje
