@@ -73,3 +73,9 @@ las extenciones las mismas
 
 recuerda agregar todos los cambios
 eso quiere decir el nombre anterior que tenia el archivo y el nombre actual
+
+
+AHORATE 5 SEGUNDOS
+comando para cambiar nombre del archivo y padarlo a la etapa de staged 
+git mv nombre del archivo + nuevo nombre
+
