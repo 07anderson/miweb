@@ -23,3 +23,15 @@ creamos un nuevo archivo llamado:
             tambien puedes indicar caroertas
 
 tu archivo ya ha sido ignorado ahora agrega el cambio y comprometelo
+
+
+
+COMO REVISAR EL HOSTORIAL DE TODO NUESTRO REPOSITORIO:
+    usa el comando:
+         git log
+         (mostrará muhos detalles del los cambios hechos
+         por quien y un mensaje de commit, para navegar usa la barra de espacio)
+
+         git log --oneline
+         mostrara  el historial com un hash( un codigo que sirve como identificador de ese commit)
+         nos mostrará tambien el mensaje que colocamos dentro de los commit
