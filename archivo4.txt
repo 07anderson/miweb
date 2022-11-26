@@ -38,3 +38,4 @@ SALIR DE LA RAMA PRINCPAL Y LUEGO VOLVER A ELLA:
         usa el siguiente comando para realizar esa accion:
             cat + nombre del archivo que quieres ver 
             
+            
