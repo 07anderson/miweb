@@ -97,3 +97,14 @@ es por que no se a agregado apra que git lo haga seguimiento
 cuando aparece una A es por que un nuevo archivo o el archivo esta siendo agregado
 
 si todos los archivos aparece en verde ya estan listos para ser comprometidos
+
+
+VER CAMBIOS REALIADOS EN EL ARCHIVO
+usa el comando git diff
+mostrara los CAMBIOS
+
+PARA SALIR DE GIT DIFF USA LA LETRA Q
+
+usa el comando git diff --staged 
+
+nod mostrara los cambio que se encuentran el la etapa de staged 

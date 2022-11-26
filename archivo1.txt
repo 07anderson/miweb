@@ -1,4 +1,6 @@
-ssssf
+code .
+el (.) qiuere decir que habra la carperta en donde uno se encuentra
+y code es un editor de codigo
 
 para que git agrege archivos usamos el comando
  git add + nombre del archivo 
