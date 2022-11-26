@@ -32,3 +32,9 @@ SALIR DE LA RAMA PRINCPAL Y LUEGO VOLVER A ELLA:
 
 
         una vez en esa rama nueva ya podemos iniciar a realizar modificaciones en nuestro archivo
+
+
+    MOSTRAR EL CONTENIDO DE NEUSTRO ARCHIVO:
+        usa el siguiente comando para realizar esa accion:
+            cat + nombre del archivo que quieres ver 
+            
