@@ -1,0 +1,25 @@
+IGNORAR ARCHIVOS:
+si en un caso se tiene variables de entorno
+ya sea contraseñas o datos importantes
+
+no querremos que se suba al repositorio o al server por razones obvias
+te roban wey
+
+para que se almacene ese archivo solo en el computador y no sea ignorado
+hacemos estos pasos
+
+se crea un archivo para variables de entorno
+    dentro  estaran las variables
+
+#como no queremos comprometer este archivo para eso:
+creamos un nuevo archivo llamado:
+    .gitignore
+        dentro de este nuevo archivo especificamos los siguiente:
+            cuales son los archivos o 
+            cuales son las rutas que quiero ignorar y no quiero que vayan al reposirorio
+
+            entonces ya sabes cual archivo quieres ignorar?
+            entonces agrega el nombre del archivo que quieres ignorar
+            tambien puedes indicar caroertas
+
+tu archivo ya ha sido ignorado ahora agrega el cambio y comprometelo
