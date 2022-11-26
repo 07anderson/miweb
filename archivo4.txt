@@ -12,6 +12,23 @@ RAMAS EN GIT O BRANCHES:
 
     unirse a la rama principal se le llama merch  y seguir desarrollando la aplicacion
 
+
 SALIR DE LA RAMA PRINCPAL Y LUEGO VOLVER A ELLA:
 
+    antes de crear una rama verificamos en que rama nos encontramos
+    usando el comando:
+        git branch
+        nos mostrara la rama en la que estamos
     
+    CREAR UNA RAMA:
+        usa el comando checkout -b 
+        luego de -b sigue el nobre de la rama que queremos crear
+
+        luego nos indicara que hemos cambiado a una nueva rama
+        usa git brach apra verificar en que rama esta 
+        saldra indicado en donde estas y el nombre de la rama
+
+        tambien aparecera  la rama principal
+
+
+        una vez en esa rama nueva ya podemos iniciar a realizar modificaciones en nuestro archivo
