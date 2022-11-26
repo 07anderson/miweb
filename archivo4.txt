@@ -1,0 +1,17 @@
+RAMAS EN GIT O BRANCHES:
+    uno trabaja generalmente en una rama principal
+    en donde realiza correcciones , cambios en general modificaciones
+
+    pero que pasa si hay mas de un desarrollador trabajando en un mismo proyecto
+
+    entonces lo que queremos sera salirnos de esa rama principal
+    ya que esa rama es un camino en donde todos siguen constantemente
+
+    y si queremos trabajar en nuestro propio codigo para corregir algun error o modificar algo
+    uan vez resuelto todo pasaremos a devolvernos a la rama principal
+
+    unirse a la rama principal se le llama merch  y seguir desarrollando la aplicacion
+
+SALIR DE LA RAMA PRINCPAL Y LUEGO VOLVER A ELLA:
+
+    
