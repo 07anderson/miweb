@@ -38,4 +38,22 @@ SALIR DE LA RAMA PRINCPAL Y LUEGO VOLVER A ELLA:
         usa el siguiente comando para realizar esa accion:
             cat + nombre del archivo que quieres ver 
             
-            
+
+TRAER CAAMBIOS QUE ESTAN EN OTRA RAMA A LA RAMA PRINCIPAL:
+    cuando revisamos los camcios que se encuentran en el archivo que esta en otra rama
+    y lo comparamos con el mismo archivo en la rama principal 
+
+    lo que sucedera es que observaremos que los cambios no estan en la rama principal y solo estan en la otra rama
+    para traer los cambios de la otra rama a la principal hacemos lo siguiente:
+
+    ESCRIBIR ESTO EL LA RAMA PRINCIPAL "PRINCIPAL":
+        git merge ramab (yo le puse a la otra rama :"ramab")
+        y con los cambios que solo estaban en la otras rama ya estaran en la rama principal
+
+        IMPORTANTE :
+        uan vez modificado los archivos que querias modificar 
+        agregar el archivo con el comando:
+            git add
+        y hacer un commit.
+
+        una ve comiteado ya podemos ir a la rama principal traer los cambios.
